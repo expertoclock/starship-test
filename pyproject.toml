@@ -1,0 +1,13 @@
+[project]
+name = "starship-test"
+version = "1.0.0"
+description = "Starship test"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "expertoclock", email = "talha007143@gmail.com"}]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
